@@ -1,0 +1,37 @@
+.profile-content {
+    position: relative;
+    /* border: 1px solid #ccc; */
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 100px;;
+  }
+.profile-content2 {
+    position: relative;
+    /* border: 1px solid #ccc; */
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;;
+  }
+  
+  .heading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .metadata {
+    position: absolute;
+    bottom: 4px;
+    right: 6px;
+  }
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  

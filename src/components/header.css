@@ -1,0 +1,56 @@
+/* Header styles */
+.header {
+position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 20px 7px 10px;
+  background: black;
+  z-index: 1000;
+  }
+  
+  .left-container {
+    display:flex;
+    align-items: center;
+    flex: 1;
+    
+  }
+  .line {
+    width: 1.5px; 
+    height: 50px; 
+    background-color: rgba(220, 202, 41, 0.967);
+    margin: 0 10px; 
+  }
+  
+  
+  .right-container {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .logo-text{
+    font-size: larger;
+    color:#ede9e9;
+    letter-spacing: 2.5px;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    background: rgba(220, 202, 41, 0.967);
+    color: black;
+    cursor: pointer;
+  }
+  
